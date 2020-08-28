@@ -1,0 +1,14 @@
+    >>> import time
+    >>> from zumi.zumi import Zumi
+    >>> from zumi.util.screen import Screen
+    >>> zumi = Zumi()
+    Starting Zumi 
+    Pi Zero I2C is available
+    Verified Pi Zero is the same
+    Gyroscope previously calibrated
+    Zumi board detected
+    Compass detected
+    OLED Screen detected
+    Gyroscope & Accelerometer detected
+    >>> screen = Screen()
+    >>> zumi.forward()
